@@ -376,6 +376,10 @@ span {
   clear: both;
 }
 
+.contact-link {
+  display: inline;
+}
+
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {

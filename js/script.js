@@ -143,18 +143,19 @@ var view = {
     	]
     },
 
-    //reusable text variablesHTMLclear: '<div class="clear"></div>',
+    //reusable text variables
+    HTMLclear: '<div class="clear"></div>',
     HTMLheaderBox: '<div id="header-box"></div>',
     HTMLheaderName: '<h1 id="name">%data%</h1>',
     HTMLheaderRole: '<div>%data%</div>',
     HTMLheaderText: '<div id="header-text"></div>',
 
     HTMLcontactGeneric: '<li class="flex-item"><span class="dark-text">%contact%</span><span class="white-text">%data%</span></li>',
-    HTMLmobile: '<li class="flex-item"><span class="dark-text">mobile</span><span class="white-text">%data%</span></li>',
-    HTMLemail: '<li class="flex-item"><span class="dark-text">email</span><span class="white-text">%data%</span></li>',
-    HTMLtwitter: '<li class="flex-item"><span class="dark-text">twitter</span><span class="white-text">%data%</span></li>',
-    HTMLgithub: '<li class="flex-item"><span class="dark-text">github</span><span class="white-text">%data%</span></li>',
-    HTMLblog: '<li class="flex-item"><span class="dark-text">blog</span><span class="white-text">%data%</span></li>',
+    HTMLmobile: '<li class="flex-item"><span class="dark-text">mobile</span><a href="tel:%data%" class="white-text contact-link">%data%</a></li>',
+    HTMLemail: '<li class="flex-item"><span class="dark-text">email</span><a href="mailto:%data%" class="white-text contact-link">%data%</a></li>',
+    HTMLtwitter: '<li class="flex-item"><span class="dark-text">twitter</span><a href="http://www.twitter.com/%data%" class="white-text contact-link">%data%</a></li>',
+    HTMLgithub: '<li class="flex-item"><span class="dark-text">github</span><a href="http://www.github.com/%data%" class="white-text contact-link">%data%</a></li>',
+    HTMLblog: '<li class="flex-item"><span class="dark-text">blog</span><a href="%data%" class="white-text contact-link">%data%</a></li>',
     HTMLlocation: '<li class="flex-item"><span class="dark-text">location</span><span class="white-text">%data%</span></li>',
 
     HTMLwelcomeMsg: '<h2 class="center-text">Welcome!</h2><p id="welcome-message" class="row">%data%</p>',
@@ -202,17 +203,17 @@ var view = {
     render: function() {
         //bio render
         $("#topContacts").append(
-    		this.HTMLmobile.replace("%data%", this.bio.contacts.mobile) +
-    		this.HTMLemail.replace("%data%", this.bio.contacts.email) +
-    		this.HTMLgithub.replace("%data%", this.bio.contacts.github) +
-    		// this.HTMLtwitter.replace("%data%", this.bio.contacts.twitter) +
+    		this.HTMLmobile.replace(/%data%/g, this.bio.contacts.mobile) +
+    		this.HTMLemail.replace(/%data%/g, this.bio.contacts.email) +
+    		this.HTMLgithub.replace(/%data%/g, this.bio.contacts.github) +
+    		// this.HTMLtwitter.replace(/%data%/g, this.bio.contacts.twitter) +
     		this.HTMLlocation.replace("%data%", this.bio.contacts.location)
     		);
     	$("#footerContacts").append(
-    		this.HTMLmobile.replace("%data%", this.bio.contacts.mobile) +
-    		this.HTMLemail.replace("%data%", this.bio.contacts.email) +
-    		this.HTMLgithub.replace("%data%", this.bio.contacts.github) +
-    		//this.HTMLtwitter.replace("%data%", this.bio.contacts.twitter) +
+        this.HTMLmobile.replace(/%data%/g, this.bio.contacts.mobile) +
+    		this.HTMLemail.replace(/%data%/g, this.bio.contacts.email) +
+    		this.HTMLgithub.replace(/%data%/g, this.bio.contacts.github) +
+    		// this.HTMLtwitter.replace(/%data%/g, this.bio.contacts.twitter) +
     		this.HTMLlocation.replace("%data%", this.bio.contacts.location)
     		);
     	$(this.HTMLheaderBox).insertBefore("#main");
