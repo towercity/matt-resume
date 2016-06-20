@@ -389,9 +389,6 @@ span {
 }
 
 @media only screen and (max-width: 750px) {
-  #header-box {
-    height: 450px;
-  }
 
   #header-text {
     top: 350px;
