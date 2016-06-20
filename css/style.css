@@ -301,7 +301,7 @@ span {
 /* Specific Elements/Classes */
 
 #main {
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
 #header {
@@ -334,6 +334,15 @@ span {
 #topContacts {
   padding: 5px 0;
   margin-bottom: 30px;
+}
+
+#footer {
+  margin-top: 50px;
+  padding: 0;
+}
+
+#footerContacts {
+  padding: 5px 0;
 }
 
 #map {

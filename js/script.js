@@ -212,7 +212,7 @@ var view = {
     		this.HTMLmobile.replace("%data%", this.bio.contacts.mobile) +
     		this.HTMLemail.replace("%data%", this.bio.contacts.email) +
     		this.HTMLgithub.replace("%data%", this.bio.contacts.github) +
-    		this.HTMLtwitter.replace("%data%", this.bio.contacts.twitter) +
+    		//this.HTMLtwitter.replace("%data%", this.bio.contacts.twitter) +
     		this.HTMLlocation.replace("%data%", this.bio.contacts.location)
     		);
     	$(this.HTMLheaderBox).insertBefore("#main");
