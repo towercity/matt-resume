@@ -8,6 +8,7 @@ var view = {
     		"mobile" : "813.758.8512",
     		"email" : "matthewjnerger3@gmail.com",
     		"github" : "towercity",
+        //"twitter" : "towercitydrive",
     		"location" : "Miami, FL"
     	},
     	"bioPic" : "images/me.jpg",
@@ -204,7 +205,7 @@ var view = {
     		this.HTMLmobile.replace("%data%", this.bio.contacts.mobile) +
     		this.HTMLemail.replace("%data%", this.bio.contacts.email) +
     		this.HTMLgithub.replace("%data%", this.bio.contacts.github) +
-    		this.HTMLtwitter.replace("%data%", this.bio.contacts.twitter) +
+    		// this.HTMLtwitter.replace("%data%", this.bio.contacts.twitter) +
     		this.HTMLlocation.replace("%data%", this.bio.contacts.location)
     		);
     	$("#footerContacts").append(
