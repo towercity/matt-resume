@@ -153,8 +153,8 @@ var view = {
     HTMLcontactGeneric: '<li class="flex-item"><span class="dark-text">%contact%</span><span class="white-text">%data%</span></li>',
     HTMLmobile: '<li class="flex-item"><span class="dark-text">mobile</span><a href="tel:%data%" class="white-text contact-link">%data%</a></li>',
     HTMLemail: '<li class="flex-item"><span class="dark-text">email</span><a href="mailto:%data%" class="white-text contact-link">%data%</a></li>',
-    HTMLtwitter: '<li class="flex-item"><span class="dark-text">twitter</span><a href="http://www.twitter.com/%data%" class="white-text contact-link">%data%</a></li>',
-    HTMLgithub: '<li class="flex-item"><span class="dark-text">github</span><a href="http://www.github.com/%data%" class="white-text contact-link">%data%</a></li>',
+    HTMLtwitter: '<li class="flex-item"><span class="dark-text">twitter</span><a href="http://www.twitter.com/%data%" target="_blank" class="white-text contact-link">%data%</a></li>',
+    HTMLgithub: '<li class="flex-item"><span class="dark-text">github</span><a href="http://www.github.com/%data%" target="_blank" class="white-text contact-link">%data%</a></li>',
     HTMLblog: '<li class="flex-item"><span class="dark-text">blog</span><a href="%data%" class="white-text contact-link">%data%</a></li>',
     HTMLlocation: '<li class="flex-item"><span class="dark-text">location</span><span class="white-text">%data%</span></li>',
 
