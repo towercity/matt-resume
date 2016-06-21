@@ -14,7 +14,7 @@ var view = {
     	"welcomeMessage" : "Web designer with strong experience in the creative fields " +
                           "of writing, audio, and education.",
     	"skills" : [
-    		"Writing", "Web Design", "Teaching", "Javascript", "CSS", "HTML", "Adobe Audition"
+    		"Javascript", "CSS", "HTML", "Adobe Audition", "Microsoft Office", "Writing", "Teaching"
     	]
     },
 
