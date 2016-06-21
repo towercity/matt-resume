@@ -11,7 +11,6 @@ var view = {
         //"twitter" : "towercitydrive",
     		"location" : "Miami, FL"
     	},
-    	"bioPic" : "images/me.jpg",
     	"welcomeMessage" : "I'm a beginning front-end web designer with strong experience in writing," + " " +
     						"audio, and education.",
     	"skills" : [
