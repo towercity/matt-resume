@@ -15,7 +15,9 @@ var view = {
                           "of writing, audio, and education.",
     	"skills" : [
     		"Javascript", "CSS", "HTML", "Adobe Audition", "Microsoft Office", "Writing", "Teaching"
-    	]
+    	],
+      //TODO: add a specific page section for languages and frameworks
+      "languages" : ["jQuery", "Knockout", "Backbone.js", "Jasmine", "Javascript", "CSS", "HTML"]
     },
 
     //work object
