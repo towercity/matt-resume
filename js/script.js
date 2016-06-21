@@ -111,13 +111,24 @@ var view = {
     		"description" : [
     			"Produced sixty pages of original fiction for honors thesis",
     			"Attended four limited access writing workshops, each of which required approval for enrollment based on writing samples"]
+    		},
+        {
+    		"name" : "University of Miami",
+    		"location" : "Miami, FL",
+    		"major" : "Creative Writing",
+    		"degree" : "Master of Fine Arts",
+    		"dates" : "August 2016 - Present",
+    		"years" : 1,
+    		"description" : [
+    			"[[To update when the time comes]]"
+          ]
     		}
     	],
     	"onlineCourses" : [
     		{
     		"title"  : "Front-End Developer",
     		"school" : "Udacity",
-    		"dates" : 2016,
+    		"dates" : "February 2016 - May 2016",
     		"url" : "https://www.udacity.com/",
     		"description" : [
     			"Learned fundamentals of HTML, CSS, and Javascript",
