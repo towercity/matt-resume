@@ -11,8 +11,8 @@ var view = {
         //"twitter" : "towercitydrive",
     		"location" : "Miami, FL"
     	},
-    	"welcomeMessage" : "I'm a beginning front-end web designer with strong experience in writing," + " " +
-    						"audio, and education.",
+    	"welcomeMessage" : "Web designer with strong experience in the creative fields " +
+                          "of writing, audio, and education.",
     	"skills" : [
     		"Writing", "Web Design", "Teaching", "Javascript", "CSS", "HTML", "Adobe Audition"
     	]
