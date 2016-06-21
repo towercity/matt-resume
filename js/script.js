@@ -27,19 +27,20 @@ var view = {
     		"employer" : "DIG Baton Rouge",
     		"title" : "Reporter",
     		"location" : "Baton Rouge, LA",
-    		"dates" : "August 2015 - Present",
+    		"dates" : "August 2015 - February 2016",
     		"description" : [
     			"Researched and wrote articles about community events",
-    			"Pitched stories for publication",
-    			"Worked independently on stories from inception to deadline"]
+    			"Worked independently on stories from inception to deadline"
+          ]
     		},
     		{
     		"employer" : "Franciscan Ministries of Our Lady Health System",
     		"title" : "AP Clerk",
     		"location" : "Baton Rouge, LA",
-    		"dates" : "December 2014 - Present",
+    		"dates" : "December 2014 - May 2016",
     		"description" : [
-    			"Processed invoices"]
+    			"Processed invoices"
+          ]
     		},
     		{
     		"employer" : "LSU Cox Center for Student Athletes",
@@ -49,32 +50,39 @@ var view = {
     		"description" : [
     			"Tutored student-athletes in composition and literature",
     			"Generated and presented educational materials",
-    			"Helped students set and meet structured learning goals"]
+    			"Helped students set and meet structured learning goals"
+          ]
     		},
     		{
     		"employer" : "WFSU-FM",
     		"title" : "Production Assisstant",
     		"location" : "Tallahassee, FL",
     		"dates" : "January - July 2014",
-    		"description" : ["Ran automation software, maintained databases"]
+    		"description" : [
+          "Ran automation software, maintained databases"
+          ]
     		},
     		{
     		"employer" : "Solution Skills, Inc.",
     		"title" : "Marketing Assisstant",
     		"location" : "Tallahassee, FL",
     		"dates" : "January - July 2014",
-    		"description" : ["Wrote, edited, and formatted marketing materials, strategy guides, and practice tests",
+    		"description" : [
+          "Wrote, edited, and formatted marketing materials, strategy guides, and practice tests",
     			"Researched and compiled information on standardized tests",
-    			"Organized and led focus groups and workshops with high-school and college aged students"]
+    			"Organized and led focus groups and workshops with high-school and college aged students"
+          ]
     		},
     		{
     		"employer" : "Leon County Schools",
     		"title" : "Substitute Teacher",
     		"location" : "Tallahassee, FL",
     		"dates" : "January - July 2014",
-    		"description" : ["Taught large groups of students a variety of subjects",
+    		"description" : [
+          "Taught large groups of students a variety of subjects",
     			"Worked individually with students as needed",
-    			"Reported progress and specific student needs to primary teacher"]
+    			"Reported progress and specific student needs to primary teacher"
+          ]
     		},
     		{
     		"employer" : "WVFS Tallahassee",
@@ -84,7 +92,8 @@ var view = {
     		"description" : [
     			"Wrote reviews for albums entered into catalog",
     			"Researched, wrote, and read summaries of articles on air",
-    			"Wrote and produced station identifications"]
+    			"Wrote and produced station identifications"
+          ]
     		}
     	]
     },
