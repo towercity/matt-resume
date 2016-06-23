@@ -148,11 +148,11 @@ var view = {
     		"link" : "#"
     	},
     	{
-    		"title" : "Dummy Project 1",
-    		"dates" : 2016,
-    		"description" : "Stand in for later Udacity Projects",
-    		"image" : "http://lorempixel.com/250/360/cats",
-    		"link" : "#"
+    		"title" : "Snake",
+    		"dates" : "February 2016",
+    		"description" : "A basic snake arcade game clone using the HTML5 canvas.",
+    		"image" : "images/project_snake.jpg",
+    		"link" : "http://towercity.github.io/snake"
     	},
     	{
     		"title" : "Dummy Project 2",
@@ -197,9 +197,9 @@ var view = {
     HTMLprojectOverlay: '<div class="project-overlay image-overlay-content"></div>',
     HTMLprojectTitle: '<h2>%data%</h2>',
     HTMLprojectDates: '<div class="white-text">%data%</div>',
-    HTMLprojectDescription: '<p>%data%</p>',
+    HTMLprojectDescription: '<p class="project-description">%data%</p>',
     HTMLprojectImage: '<img src="%data%">',
-    HTMLprojectLink: '<a href="%data%" class="button">View project</a>',
+    HTMLprojectLink: '<a href="%data%" target="_blank" class="button">View project</a>',
 
     HTMLschoolStart: '<div class="education-entry row"></div>',
     HTMLschoolLeft: '<div class="education-left col-md-5"></div>',
