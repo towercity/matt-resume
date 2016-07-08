@@ -142,10 +142,10 @@ var view = {
     	"projects" : [
     	{
     		"title" : "Work Portfolio",
-    		"dates" : 2016,
-    		"description" : "Portfolio of audio experience",
+    		"dates" : "July 2016",
+    		"description" : "Web portfolio with fully functional HTML5 audio player.",
     		"image" : "images/project01.jpg",
-    		"link" : "#"
+    		"link" : "../portfolio"
     	},
     	{
     		"title" : "Snake",
