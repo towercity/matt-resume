@@ -119,26 +119,23 @@ var view = {
 	projects: {
 		"projects": [
 			{
-				"title": "Work Portfolio",
-				"dates": "July 2016",
+				"title": "Sinking City",
+				"description": "The University of Miami's Graduate literary magazine",
+				"image": "images/project_sink.jpg",
+				"link": "http://www.sinkingcitylitmag.com"
+    		},
+			{
+				"title": "Audio Portfolio",
 				"description": "Web portfolio with fully functional HTML5 audio player.",
 				"image": "images/project01.jpg",
-				"link": "../portfolio"
-    	},
+				"link": "http://towercity.github.io/portfolio"
+    		},
 			{
 				"title": "Snake",
-				"dates": "February 2016",
 				"description": "A basic snake arcade game clone using the HTML5 canvas.",
 				"image": "images/project_snake.jpg",
 				"link": "http://towercity.github.io/snake"
-    	},
-			{
-				"title": "Dummy Project 2",
-				"dates": 2016,
-				"description": "Stand in for later Udacity Projects",
-				"image": "http://lorempixel.com/250/360/city",
-				"link": "#"
-    	}
+    		}
     	]
 	},
 
