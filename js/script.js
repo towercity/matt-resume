@@ -131,10 +131,10 @@ var view = {
 				"link": "http://towercity.github.io/portfolio"
     		},
 			{
-				"title": "Snake",
-				"description": "A basic snake arcade game clone using the HTML5 canvas.",
-				"image": "images/project_snake.jpg",
-				"link": "http://towercity.github.io/snake"
+				"title": "Author Blog",
+				"description": "A simple biography/blog page for an author.",
+				"image": "images/project_author.jpg",
+				"link": "http://towercity.github.io/author-blog"
     		}
     	]
 	},
