@@ -14,7 +14,7 @@ var view = {
 			"Fort Wayne, IN",
 			"Tampa, FL"
 		],
-		"welcomeMessage": `Hi, my name's Matthew Nerger. I'm a front-end web developer and graduate student in Miami, Florida. I've been coding 				for the web since 2015, with a focus on CSS and Javscript, and a strong knowledge of jQuery, Bootsrap, and Angular.`,
+		"welcomeMessage": `Hi, my name's Matthew Nerger. I'm a front-end web developer and graduate student in Miami, Florida. I've been coding for the web since 2015, with a focus on CSS and Javscript, and a strong knowledge of jQuery, Bootsrap, and Angular.`,
 
 		//TODO: Make less languages, more active skills (what I've DONE with languages)
 		"skills": ["Javascript", "CSS", "HTML", "jQuery", "Bootstrap", "Angular", "Python"],
@@ -27,25 +27,35 @@ var view = {
 	work: {
 		"jobs": [
 			{
+				"employer": "The Miami Hurricane",
+				"title": "Webmaster",
+				"location": "Miami, FL",
+				"description": [
+					"Maintained Wordpress blog with archive of over 15,000 posts",
+					"Repaired front- and back-end errors in styling and content management",
+					"Updated and added functionalities as needed"
+				]
+    		},
+			{
 				"employer": "Sinking City Lit Mag",
 				"title": "Webmaster/Nonfiction Editor",
 				"location": "Miami, FL",
 				"description": [
-					"Built and hosted website",
+					"Migrated online literary mag of approximately 50 pages from static site to Wordpress blog",
 					"Added and updated published works, author bios, and editorial listings",
 					"Created and maintained templates for easy addition and modification of site content"
 				]
     		},
-			{
-				"employer": "LSU Cox Center for Student Athletes",
-				"title": "Content Tutor",
-				"location": "Baton Rouge, LA",
-				"description": [
-					"Tutored student-athletes in composition and literature",
-					"Generated and presented educational materials",
-					"Helped students set and meet structured learning goals"
-			  	]
-    		},
+			// {
+			// 	"employer": "LSU Cox Center for Student Athletes",
+			// 	"title": "Content Tutor",
+			// 	"location": "Baton Rouge, LA",
+			// 	"description": [
+			// 		"Tutored student-athletes in composition and literature",
+			// 		"Generated and presented educational materials",
+			// 		"Helped students set and meet structured learning goals"
+			//   	]
+   //  		},
 			{
 				"employer": "WFSU-FM",
 				"title": "Production Assisstant",
@@ -54,27 +64,27 @@ var view = {
 					"Updated and maintained content databases",
 					"Pushed program files to automation server via FTP"
 				]
-    		},
-			{
-				"employer": "Solution Skills, Inc.",
-				"title": "Marketing Assisstant",
-				"location": "Tallahassee, FL",
-				"description": [
-					"Wrote, edited, and formatted marketing materials, strategy guides, and practice tests",
-					"Researched and compiled information on standardized tests",
-					"Organized and led focus groups and workshops with high-school and college aged students"
-			  	]
-    		},
-			{
-				"employer": "Leon County Schools",
-				"title": "Substitute Teacher",
-				"location": "Tallahassee, FL",
-				"description": [
-					"Taught large groups of students a variety of subjects",
-					"Worked individually with students as needed",
-					"Reported progress and specific student needs to primary teacher"
-			  	]
     		}
+			// {
+			// 	"employer": "Solution Skills, Inc.",
+			// 	"title": "Marketing Assisstant",
+			// 	"location": "Tallahassee, FL",
+			// 	"description": [
+			// 		"Wrote, edited, and formatted marketing materials, strategy guides, and practice tests",
+			// 		"Researched and compiled information on standardized tests",
+			// 		"Organized and led focus groups and workshops with high-school and college aged students"
+			//   	]
+   //  		},
+			// {
+			// 	"employer": "Leon County Schools",
+			// 	"title": "Substitute Teacher",
+			// 	"location": "Tallahassee, FL",
+			// 	"description": [
+			// 		"Taught large groups of students a variety of subjects",
+			// 		"Worked individually with students as needed",
+			// 		"Reported progress and specific student needs to primary teacher"
+			//   	]
+   //  		}
     	]
 	},
 
