@@ -153,7 +153,7 @@ var view = {
 	HTMLclear: '<div class="clear"></div>',
 	HTMLheaderBox: '<div id="header-box"></div>',
 	HTMLheaderName: '<h1 id="name">%data%</h1>',
-	HTMLheaderRole: '<div>%data%</div>',
+	HTMLheaderRole: '<h3>%data%</h3>',
 	HTMLheaderText: '<div id="header-text"></div>',
 
 	HTMLcontactGeneric: '<li class="flex-item"><span class="dark-text">%contact%</span><span class="white-text">%data%</span></li>',

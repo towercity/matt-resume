@@ -37,9 +37,9 @@ hr {
 	overflow: auto;
 }
 h1 {
-	font-size: 46px;
+	font-size: 72px;
 	color: #4d2600;
-	line-height: 48px;
+	line-height: 72px;
 	display: inline;
 }
 h2 {
@@ -281,19 +281,29 @@ span {
 #header-box {
 	width: 100%;
 	height: 66vh;
-	background: url("../images/background.jpg") no-repeat center center;
+	background: url("../images/background.jpg");
 	background-size: cover;
 }
 #header-text {
 	position: relative;
 	text-align: center;
 	margin: 0 auto;
-	top: calc(66vh - 100px);
+	top: calc(66vh - 150px);
 	color: #f4f2f1;
+	text-shadow:
+		-1px -1px 0 #4d2600,
+		1px -1px 0 #4d2600,
+		-1px 1px 0 #4d2600,
+		1px 1px 0 #4d2600;
 }
 #header-text h1 {
 	color: #f4f2f1;
+	padding-bottom: 6px;
+}
+#header-text h3 {
+	color: #f4f2f1;
 	padding-bottom: 10px;
+	margin:0;
 }
 #topContacts {
 	padding: 5px 0;
