@@ -12,7 +12,9 @@ var view = {
 		},
 		"otherLocations": [
 			"Fort Wayne, IN",
-			"Tampa, FL"
+			"Tampa, FL",
+			"Baton Rouge, LA",
+			"New York, NY"
 		],
 		"welcomeMessage": `Hi, my name's Matthew Nerger. I'm a front-end web developer and graduate student in Miami, Florida. I've been coding for the web since 2015, with a focus on CSS and Javscript, and a strong knowledge of jQuery, Bootsrap, and Angular.`,
 
