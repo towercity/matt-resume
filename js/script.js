@@ -45,7 +45,8 @@ var view = {
 				"description": [
 					"Migrated online literary mag of approximately 50 pages from static site to Wordpress blog",
 					"Added and updated published works, author bios, and editorial listings",
-					"Created and maintained templates for easy addition and modification of site content"
+					"Created and maintained templates for easy addition and modification of site content",
+					"Coded custom layouts for poems and visual art pieces as needed"
 				]
     		},
 			// {
