@@ -8,7 +8,7 @@ var view = {
 			"mobile": "813.758.8512",
 			"email": "matthewjnerger3@gmail.com",
 			"github": "towercity",
-			"location": "Miami, FL"
+			"location": "New York, NY"
 		},
 		"otherLocations": [
 			"Fort Wayne, IN",
@@ -19,7 +19,7 @@ var view = {
 		"welcomeMessage": `Hi, my name's Matthew Nerger. I'm a front-end web developer and graduate student in Miami, Florida. I've been coding for the web since 2015, with a focus on CSS and Javscript, and a strong knowledge of jQuery, Bootsrap, and Angular.`,
 
 		//TODO: Make less languages, more active skills (what I've DONE with languages)
-		"skills": ["Javascript", "CSS", "HTML", "jQuery", "Bootstrap", "Angular", "Python"],
+		"skills": ["Javascript", "CSS", "HTML", "Wordpress", "jQuery", "Bootstrap", "Python"],
 
 		//TODO: add a specific page section for languages and frameworks
 		"languages": ["jQuery", "Knockout", "Backbone.js", "Jasmine", "Javascript", "CSS", "HTML"]
@@ -111,6 +111,16 @@ var view = {
 				"years": 4,
 				"description": [
     				"Produced sixty pages of original fiction for honors thesis"
+				]
+			},
+			{
+				"name": "Udacity",
+				"location": "https://www.udacity.com/",
+				"major": "Front-End Developement",
+				"degree": "Nanodegree",
+				"description": [
+					"Learned fundamentals of HTML, CSS, and Javascript",
+					"Created a variety of original projects using fundamentals of web design"
 				]
     		}
     	],
@@ -267,24 +277,6 @@ var view = {
 			});
 			$("#education").append(view.HTMLclear);
 		});
-		if (this.education.onlineCourses) {
-			this.education.onlineCourses.forEach(function (course) {
-				$("#education").append(view.HTMLonlineClasses);
-				$("#education").append(view.HTMLschoolStart);
-				$(".education-entry:last").append(view.HTMLschoolLeft);
-				$(".education-left:last").append(
-					view.HTMLonlineSchool.replace("%data%", course.school) +
-					view.HTMLonlineURL.replace("%data%", course.url)
-				);
-				$(".education-entry:last").append(view.HTMLschoolRight);
-				$(".education-right:last").append(
-					view.HTMLonlineTitle.replace("%data%", course.title)
-				);
-				course.description.forEach(function (duty) {
-					$(".education-right:last").append(view.HTMLschoolDescription.replace("%data%", duty));
-				});
-				$("#education").append(view.HTMLclear);
-			});
 
 			//projects render
 			this.projects.projects.forEach(function (project) {
@@ -297,7 +289,7 @@ var view = {
 					view.HTMLprojectLink.replace("%data%", project.link)
 				);
 			});
-		}
+
 	},
 	init: function () {
 		this.render();
