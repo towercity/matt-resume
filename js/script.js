@@ -64,7 +64,8 @@ var view = {
 				"title": "Production Assisstant",
 				"location": "Tallahassee, FL",
 				"description": [
-					"Updated and maintained content databases",
+					"Updated and maintained music library databases",
+					"Downloaded and organized weekly radio programs, bumpers, and pre-recorded announcements",
 					"Pushed program files to automation server via FTP"
 				]
     		}
