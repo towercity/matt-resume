@@ -154,13 +154,13 @@ var view = {
 				"title": "Audio Portfolio",
 				"description": "Web portfolio with fully functional HTML5 audio player.",
 				"image": "images/project01.jpg",
-				"link": "http://towercity.github.io/portfolio"
+				"link": "http://www.matthewjnerger.com/web-portfolio/"
     		},
 			{
 				"title": "Author Blog",
 				"description": "A simple biography/blog page for an author.",
 				"image": "images/project_author.jpg",
-				"link": "http://towercity.github.io/author-blog"
+				"link": "http://www.jakobkonger.com/"
     		}
     	]
 	},
