@@ -16,7 +16,7 @@ var view = {
 			"Baton Rouge, LA",
 			"New York, NY"
 		],
-		"welcomeMessage": `Hi, my name's Matthew Nerger. I'm a front-end web developer and graduate student in Miami, Florida. I've been coding for the web since 2015, with a focus on CSS and Javscript, and a strong knowledge of jQuery, Bootsrap, and Angular.`,
+		"welcomeMessage": `My name's Matthew Nerger. I'm a writer and front-end web developer currently based in New York City. I've been coding for the web since early 2015, and I've built and maintained websites for a number of clients, many of which you can check out below. In addition, I write and produce music, and write interesting fiction on the side. Visit my GitHub page to see more of my work, or check out my resume to read up on education and work history. Drop me an email if you'd like me to build you something. I'm always eager to create more`,
 
 		//TODO: Make less languages, more active skills (what I've DONE with languages)
 		"skills": ["Javascript", "CSS", "HTML", "Wordpress", "jQuery", "Bootstrap", "Python"],
