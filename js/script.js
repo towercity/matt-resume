@@ -102,7 +102,9 @@ var view = {
 				"degree": "Master of Fine Arts",
 				"years": 1,
 				"description": [
-    				"Tutored students in the fundamentals of writing, grammar, and organization"
+    				"Taught multiple creative writing and english composition classes",
+						"Developed course contents, including lectures, essay prompts, and class activities",
+						"Coded and maintained online graduate literary journal website, Sinking City"
 				]
     		},
 			{
