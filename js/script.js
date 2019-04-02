@@ -199,6 +199,7 @@ var view = {
 	HTMLprojectDescription: '<p class="project-description">%data%</p>',
 	HTMLprojectImage: '<img src="%data%">',
 	HTMLprojectLink: '<a href="%data%" target="_blank" class="button">View project</a>',
+	HTMLprojectEnd: '<a href="http://www.matthewjnerger.com" target="_blank"></a>',
 
 	HTMLschoolStart: '<div class="education-entry row"></div>',
 	HTMLschoolLeft: '<div class="education-left col-md-5"></div>',
@@ -293,6 +294,8 @@ var view = {
 					view.HTMLprojectLink.replace("%data%", project.link)
 				);
 			});
+			//add 'view more' link to the end of projects
+			$('#projects').append(view.HTMLprojectEnd);
 
 	},
 	init: function () {
