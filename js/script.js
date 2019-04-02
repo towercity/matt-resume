@@ -40,7 +40,7 @@ var view = {
     		},
 			{
 				"employer": "Sinking City Lit Mag",
-				"title": "Webmaster/Nonfiction Editor",
+				"title": "Webmaster/Fiction Editor",
 				"location": "Miami, FL",
 				"description": [
 					"Migrated online literary mag of approximately 50 pages from static site to Wordpress blog",
