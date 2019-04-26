@@ -19,7 +19,7 @@ var view = {
 		"welcomeMessage": `My name's Matthew Nerger. I'm a writer and front-end web developer currently based in New York City. I've been coding for the web since early 2015, and I've built and maintained websites for a number of clients, many of which you can check out below. In addition, I write and produce music, and write interesting fiction on the side. Visit my GitHub page to see more of my work, or check out my resume to read up on education and work history. Drop me an email if you'd like me to build you something. I'm always eager to create more`,
 
 		//TODO: Make less languages, more active skills (what I've DONE with languages)
-		"skills": ["Javascript", "CSS", "HTML", "Wordpress", "jQuery", "Bootstrap", "Python"],
+		"skills": ["Javascript", "CSS", "HTML", "WordPress", "jQuery", "Bootstrap", "Python"],
 
 		//TODO: add a specific page section for languages and frameworks
 		"languages": ["jQuery", "Knockout", "Backbone.js", "Jasmine", "Javascript", "CSS", "HTML"]
@@ -33,7 +33,7 @@ var view = {
 				"title": "Webmaster",
 				"location": "Miami, FL",
 				"description": [
-					"Maintained Wordpress blog with archive of over 15,000 posts",
+					"Maintained WordPress blog with archive of over 15,000 posts",
 					"Repaired front- and back-end errors in styling and content management",
 					"Updated and added functionalities as needed"
 				]
@@ -43,7 +43,7 @@ var view = {
 				"title": "Webmaster/Fiction Editor",
 				"location": "Miami, FL",
 				"description": [
-					"Migrated online literary mag of approximately 50 pages from static site to Wordpress blog",
+					"Migrated online literary mag of approximately 50 pages from static site to WordPress blog",
 					"Added and updated published works, author bios, and editorial listings",
 					"Created and maintained templates for easy addition and modification of site content",
 					"Coded custom layouts for poems and visual art pieces as needed"
