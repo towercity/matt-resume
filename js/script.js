@@ -40,13 +40,13 @@ var view = {
     	},
 			{
 				"employer": "University of Miami, College of Arts and Sciences",
-				"title": "Assistant to the Wed Developer",
+				"title": "Assistant to the Web Developer",
 				"location": "Miami, FL",
 				"description": [
 					"Migrated website of over 1,000 pages from TERMINALFOUR to Cascade Content Management System",
 					"Updated css styles where neccesary",
 					"Cropped photographs and banners to fit new site design's required dimensions",
-					"Created new banners according to school's requests"
+					"Created new banners according to college's requests"
 				]
 			},
 			{
